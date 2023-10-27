@@ -109,6 +109,10 @@ const controlAddRecipe = async function(newRecipe) {
     addRecipeView.renderError(error);
   }
 }
+
+const newFeature = function() {
+  console.log("hello world");
+}
 const init = function() {
   //In a pub-sub system,
   //publishers are responsible for creating and sending messages,
@@ -124,7 +128,7 @@ const init = function() {
   paginationView.addHandlerClick(controlPagination);
   bookmarksView.addHandlerRender(controlBookmarks);
   addRecipeView.addHandlerUpload(controlAddRecipe);
-  console.log("Welcome!");
+  newFeature();
 };
 
 init();
