@@ -10,7 +10,7 @@
   "author": "zeyad",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.10.0"
+    "parcel": "^1.12.3"
   },
   "dependencies": {
     "core-js": "^3.33.0",
