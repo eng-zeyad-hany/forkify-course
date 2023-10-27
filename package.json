@@ -5,12 +5,12 @@
   "default": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html --out-dir ./dist"
+    "build": "parcel build index.html --no-scope-hoist --dist-dir ./dist"
   },
   "author": "zeyad",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^1.12.3"
+    "parcel": "^2.10.0"
   },
   "dependencies": {
     "core-js": "^3.33.0",
